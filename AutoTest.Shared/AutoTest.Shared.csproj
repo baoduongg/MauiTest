@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.Build.NoTargets/3.7.0">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <GenerateMSBuildEditorConfigFile>False</GenerateMSBuildEditorConfigFile>
+    <RootNamespace>AutoTest</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="**\*.cs" />
+  </ItemGroup>
+</Project>
